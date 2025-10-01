@@ -22,7 +22,6 @@ setup(
     install_requires=[
         'requests>=2.25.1',
         'aiohttp>=3.8.0',
-        'aiosocks>=0.7.0',
         'httpx>=0.24.0',
         'pytest>=7.0.0',
     ],
