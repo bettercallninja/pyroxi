@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "pyroxy"
+name = "pyroxi"
 version = "0.1.0"
 description = "A Python package for connecting to a proxy and sending packets."
-authors = ["Your Name <your.email@example.com>"]
+authors = ["bettercallninja"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/yourusername/pyroxy"
-repository = "https://github.com/yourusername/pyroxy"
+homepage = "https://github.com/bettercallninja/pyroxi"
+repository = "https://github.com/bettercallninja/pyroxi"
 keywords = ["proxy", "network", "packets"]
 
 [tool.poetry.dependencies]

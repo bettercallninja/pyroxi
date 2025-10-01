@@ -35,5 +35,5 @@ jobs:
 
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
+        # Uses trusted publisher authentication (no API token needed)
+        # Make sure this repository is configured as a trusted publisher on PyPI
