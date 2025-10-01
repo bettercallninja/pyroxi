@@ -13,14 +13,14 @@ import os
 # Add current directory to path for import
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + '/..')
 
-from pyroxy import (
+from pyroxi import (
     ProxyManager, 
     AsyncHTTPClient, 
     PacketBuilder, 
     PacketParser,
     AdvancedPacketBuilder
 )
-from pyroxy.exceptions import ProxyConnectionError
+from pyroxi.exceptions import ProxyConnectionError
 
 
 def print_section(title):

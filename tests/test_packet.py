@@ -1,6 +1,6 @@
 import pytest
-from pyroxy.packet.builder import PacketBuilder
-from pyroxy.packet.parser import PacketParser
+from pyroxi.packet.builder import PacketBuilder
+from pyroxi.packet.parser import PacketParser
 
 def test_packet_builder():
     builder = PacketBuilder()

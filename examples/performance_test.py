@@ -9,7 +9,7 @@ import asyncio
 import time
 import random
 from typing import List, Dict
-from pyroxy import ProxyManager, AsyncHTTPClient
+from pyroxi import ProxyManager, AsyncHTTPClient
 
 
 class PerformanceTest:

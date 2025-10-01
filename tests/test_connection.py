@@ -1,6 +1,6 @@
 import unittest
-from pyroxy.core.connection import Connection
-from pyroxy.exceptions import ProxyConnectionError
+from pyroxi.core.connection import Connection
+from pyroxi.exceptions import ProxyConnectionError
 
 class TestConnection(unittest.TestCase):
 

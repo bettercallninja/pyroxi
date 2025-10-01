@@ -1,22 +1,41 @@
-[tool.poetry]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
 name = "pyroxi"
 version = "0.1.0"
 description = "A Python package for connecting to a proxy and sending packets."
-authors = ["bettercallninja"]
-license = "MIT"
+authors = [{name = "bettercallninja"}]
+license = {text = "MIT"}
 readme = "README.md"
-homepage = "https://github.com/bettercallninja/pyroxi"
-repository = "https://github.com/bettercallninja/pyroxi"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: Proxy Servers",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Networking",
+]
 keywords = ["proxy", "network", "packets"]
+dependencies = [
+    "requests>=2.25.1",
+    "aiohttp>=3.8.0",
+    "aiosocks>=0.7.0",
+    "httpx>=0.24.0",
+    "pytest>=7.0.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.7"
-requests = "^2.25.1"
-aiohttp = "^3.8.0"
-aiosocks = "^0.7.0"
-httpx = "^0.24.0"
-pytest = "^7.0.0"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+Homepage = "https://github.com/bettercallninja/pyroxi"
+Repository = "https://github.com/bettercallninja/pyroxi"
+"Bug Reports" = "https://github.com/bettercallninja/pyroxi/issues"
+"Source" = "https://github.com/bettercallninja/pyroxi"

@@ -6,7 +6,7 @@ For advanced async features, see async_usage.py
 """
 
 import asyncio
-from pyroxy import ProxyManager, AsyncHTTPClient
+from pyroxi import ProxyManager, AsyncHTTPClient
 
 
 def simple_example():

@@ -2,11 +2,11 @@
 
 # This script demonstrates advanced features of the pyroxy package, including connecting to a proxy, sending packets, and handling responses.
 
-from pyroxy.core.connection import Connection
-from pyroxy.core.proxy import Proxy
-from pyroxy.packet.builder import PacketBuilder
-from pyroxy.packet.parser import PacketParser
-from pyroxy.exceptions import ProxyConnectionError, PacketError
+from pyroxi.core.connection import Connection
+from pyroxi.core.proxy import Proxy
+from pyroxi.packet.builder import PacketBuilder
+from pyroxi.packet.parser import PacketParser
+from pyroxi.exceptions import ProxyConnectionError, PacketError
 
 
 

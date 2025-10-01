@@ -7,7 +7,7 @@ including SOCKS5/HTTP proxy support, concurrent requests, and custom packet hand
 
 import asyncio
 import json
-from pyroxy import ProxyManager, AsyncHTTPClient, PacketBuilder, PacketParser
+from pyroxi import ProxyManager, AsyncHTTPClient, PacketBuilder, PacketParser
 
 
 async def basic_proxy_example():
@@ -232,7 +232,7 @@ async def advanced_packet_building():
     """Example of advanced packet building capabilities"""
     print("\n=== Advanced Packet Building ===")
     
-    from pyroxy.packet.builder import AdvancedPacketBuilder
+    from pyroxi.packet.builder import AdvancedPacketBuilder
     
     builder = AdvancedPacketBuilder()
     
