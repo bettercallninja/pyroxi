@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyroxy"
+version = "0.1.0"
+description = "A Python package for connecting to a proxy and sending packets."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/pyroxy"
+repository = "https://github.com/yourusername/pyroxy"
+keywords = ["proxy", "network", "packets"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25.1"
+aiohttp = "^3.8.0"
+aiosocks = "^0.7.0"
+httpx = "^0.24.0"
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
