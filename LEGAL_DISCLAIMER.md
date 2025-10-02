@@ -1,4 +1,3 @@
-"""
 LEGAL DISCLAIMER AND TERMS OF USE
 
 The Pyroxy library is provided for legitimate purposes only. Users must comply 

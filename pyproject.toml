@@ -4,14 +4,14 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyroxi"
-version = "0.1.0"
-description = "A Python package for connecting to a proxy and sending packets."
+version = "1.0.0"
+description = "High-performance Python proxy library with SOCKS5 and HTTP support, featuring multi-proxy load balancing, automatic failover, and binary networking protocols."
 authors = [{name = "bettercallninja"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
@@ -24,14 +24,25 @@ classifiers = [
     "Topic :: Internet :: Proxy Servers",
     "Topic :: Software Development :: Testing",
     "Topic :: System :: Networking",
+    "Framework :: AsyncIO",
+    "Operating System :: OS Independent",
 ]
-keywords = ["proxy", "network", "packets"]
+keywords = [
+    "proxy",
+    "socks5",
+    "http-proxy",
+    "proxy-server",
+    "load-balancing",
+    "failover",
+    "async",
+    "networking",
+    "binary-protocol",
+    "high-performance",
+    "multi-proxy",
+    "proxy-pool",
+]
 dependencies = [
-    "requests>=2.25.1",
-    "aiohttp>=3.8.0",
-    "httpx>=0.24.0",
-    "pytest>=7.0.0",
-    "setuptools>=68.0.0",
+    # PyRoxi uses pure Python sockets - no external dependencies!
 ]
 
 [project.urls]
