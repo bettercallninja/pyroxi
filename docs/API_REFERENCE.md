@@ -1485,4 +1485,3 @@ def my_function():
 For more information, see:
 - [Complete Usage Examples](../examples/complete_usage_examples.py)
 - [Implementation Details](IMPLEMENTATION.md)
-- [Quick Reference](QUICK_REFERENCE.md)
