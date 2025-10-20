@@ -338,11 +338,9 @@ For complete packet module documentation, see [docs/API_REFERENCE.md](docs/API_R
 
 ## 📚 Documentation
 
-- **[Quick Reference](docs/QUICK_REFERENCE.md)** - Fast API lookup and common patterns
 - **[API Reference](docs/API_REFERENCE.md)** - Complete API documentation
 - **[Implementation Details](docs/IMPLEMENTATION.md)** - Technical deep dive
 - **[Visual Guide](docs/VISUAL_GUIDE.md)** - Architecture diagrams and workflows
-- **[Quick Start Guide](QUICKSTART.md)** - Get started in minutes
 
 ---
 
