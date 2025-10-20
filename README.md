@@ -340,7 +340,6 @@ For complete packet module documentation, see [docs/API_REFERENCE.md](docs/API_R
 
 - **[API Reference](docs/API_REFERENCE.md)** - Complete API documentation
 - **[Implementation Details](docs/IMPLEMENTATION.md)** - Technical deep dive
-- **[Visual Guide](docs/VISUAL_GUIDE.md)** - Architecture diagrams and workflows
 
 ---
 
